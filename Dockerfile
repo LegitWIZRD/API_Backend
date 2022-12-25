@@ -7,6 +7,9 @@ WORKDIR /usr/app/src
 
 COPY main.py ./
 COPY requirements.txt ./
+COPY messages.py ./
+
+
 
 RUN pip install -r requirements.txt
 
